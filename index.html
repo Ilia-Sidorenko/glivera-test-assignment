@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Список товаров | Glivera test assignment</title>
+        <meta name="description" content="Glivera test assignment - пример реализации списка товаров"></title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body class="page">
+        <div class="page__wrapper">
+            <h1 class="page__title">Список товаров</h1>
+            <section class="page__content">
+                <div class="grid">
+                    <div class="grid__item js-grid-item">
+                        <form class="card" action="">
+                            <div class="card__sku">Код товара: 769574</div>
+                            <a class="card__image" href="./index.html">
+                                <img src="https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/p/h/philco_pw18f.jpg" alt="">
+                            </a>
+                            <div class="card__badges">
+                                <div class="card__badge">-14%</div>
+                                <div class="card__badge card__badge--best-price">Лучшая цена</div>
+                            </div>
+                            <div class="card__message">Для настоящих ценителей вина...</div>
+                            <div class="card__info">
+                                <a class="card__title" href="./index.html">Винный шкаф Philco PW18F 65см/18 бутылок</a>
+                                <div class="card__rating rate">
+                                    <div class="rate__list">
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--half"></div>
+                                        <div class="rate__item"></div>
+                                    </div>
+                                    <div class="rate__count">10 отзывов</div>
+                                </div>
+                            </div>
+                            <div class="card__prices">
+                                <div class="card__price" data-title="Цена">
+                                    <strong class="card__price-value">4 624 грн</strong>
+                                    <span class="card__price-description">+ 46 грн кешбэк</span>
+                                </div>
+                                <div class="card__price card__price--old">
+                                    <span class="card__price-value">5 499 грн</span>
+                                </div>
+                            </div>
+                            <div class="card__actions">
+                                <input class="card__action btn btn--submit" type="submit" value="Купить">
+                                <button class="card__action btn btn--icon" data-type="favorite">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15">
+                                        <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z" fill="currentColor">
+                                    </svg>
+                                </button>
+                                <button class="card__action btn btn--icon" data-type="compare">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+                                        <path d="M241.2,152.8L209,45.6h-73.5V32.3c0-3.6-3.6-7.3-7.3-7.3c-3.6,0-7.3,3.6-7.3,7.3v13.4H47.4L15.2,152.8h-0.7h-3.6c0,24.3,19.7,44.1,44.1,44.1s44.1-19.7,44.1-44.1h-4.2h-0.7L63.8,52.3h57.7v156.4H64.4v22.4h7.3h56.5h56.5h7.3v-22.4h-57.1V52.3h57.7l-30.4,100.5h-0.7h-4.2c0,24.3,19.7,44.1,44.1,44.1s44.1-19.7,44.1-44.1h-3.6H241.2z M84.2,152.8H25.8l28.9-97.5L84.2,152.8zM172.2,152.8l29.5-97.5l28.9,97.5H172.2z" fill="currentColor">
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="grid__item js-grid-item">
+                        <form class="card" action="">
+                            <div class="card__sku">Код товара: 488796</div>
+                            <a class="card__image" href="./index.html">
+                                <img src="https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/f/i/file_93_6.jpg" alt="">
+                            </a>
+                            <div class="card__badges">
+                                <div class="card__badge">-24%</div>
+                                <div class="card__badge card__badge--top">Хит</div>
+                            </div>
+                            <div class="card__message"></div>
+                            <div class="card__info">
+                                <a class="card__title" href="./index.html">Стиральная машина Electrolux EW6S4R06W</a>
+                                <div class="card__rating rate">
+                                    <div class="rate__list">
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--full"></div>
+                                    </div>
+                                    <div class="rate__count">6 отзывов</div>
+                                </div>
+                            </div>
+                            <div class="card__prices">
+                                <div class="card__price" data-title="Цена">
+                                    <strong class="card__price-value">6 868 грн</strong>
+                                    <span class="card__price-description">+ 69 грн кешбэк</span>
+                                </div>
+                                <div class="card__price card__price--old">
+                                    <span class="card__price-value">8 999 грн</span>
+                                </div>
+                            </div>
+                            <div class="card__actions">
+                                <input class="card__action btn btn--submit" type="submit" value="Купить">
+                                <button class="card__action btn btn--icon" data-type="favorite">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15">
+                                        <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z" fill="currentColor">
+                                    </svg>
+                                </button>
+                                <button class="card__action btn btn--icon" data-type="compare">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+                                        <path d="M241.2,152.8L209,45.6h-73.5V32.3c0-3.6-3.6-7.3-7.3-7.3c-3.6,0-7.3,3.6-7.3,7.3v13.4H47.4L15.2,152.8h-0.7h-3.6c0,24.3,19.7,44.1,44.1,44.1s44.1-19.7,44.1-44.1h-4.2h-0.7L63.8,52.3h57.7v156.4H64.4v22.4h7.3h56.5h56.5h7.3v-22.4h-57.1V52.3h57.7l-30.4,100.5h-0.7h-4.2c0,24.3,19.7,44.1,44.1,44.1s44.1-19.7,44.1-44.1h-3.6H241.2z M84.2,152.8H25.8l28.9-97.5L84.2,152.8zM172.2,152.8l29.5-97.5l28.9,97.5H172.2z" fill="currentColor">
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="grid__item js-grid-item">
+                        <form class="card" action="">
+                            <div class="card__sku">Код товара: 237461</div>
+                            <a class="card__image" href="./index.html">
+                                <img src="https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/t/h/thomas_multi_cyclone_pro_14.jpg" alt="">
+                            </a>
+                            <div class="card__badges">
+                                <div class="card__badge">-18%</div>
+                                <div class="card__badge card__badge--top">Хит</div>
+                            </div>
+                            <div class="card__message">Скидка до 26% на пылесосы Thomas +...</div>
+                            <div class="card__info">
+                                <a class="card__title" href="./index.html">Пылесос циклонный THOMAS MULTI CYCLONE PRO 14</a>
+                                <div class="card__rating rate">
+                                    <div class="rate__list">
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--full"></div>
+                                        <div class="rate__item rate__item--half"></div>
+                                    </div>
+                                    <div class="rate__count">59 отзывов</div>
+                                </div>
+                            </div>
+                            <div class="card__prices">
+                                <div class="card__price" data-title="Цена">
+                                    <strong class="card__price-value">3 299 грн</strong>
+                                    <span class="card__price-description">+ 33 грн кешбэк</span>
+                                </div>
+                                <div class="card__price card__price--old">
+                                    <span class="card__price-value">3 999 грн</span>
+                                </div>
+                            </div>
+                            <div class="card__actions">
+                                <input class="card__action btn btn--submit" type="submit" value="Купить">
+                                <button class="card__action btn btn--icon" data-type="favorite">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15">
+                                        <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z" fill="currentColor">
+                                    </svg>
+                                </button>
+                                <button class="card__action btn btn--icon" data-type="compare">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+                                        <path d="M241.2,152.8L209,45.6h-73.5V32.3c0-3.6-3.6-7.3-7.3-7.3c-3.6,0-7.3,3.6-7.3,7.3v13.4H47.4L15.2,152.8h-0.7h-3.6c0,24.3,19.7,44.1,44.1,44.1s44.1-19.7,44.1-44.1h-4.2h-0.7L63.8,52.3h57.7v156.4H64.4v22.4h7.3h56.5h56.5h7.3v-22.4h-57.1V52.3h57.7l-30.4,100.5h-0.7h-4.2c0,24.3,19.7,44.1,44.1,44.1s44.1-19.7,44.1-44.1h-3.6H241.2z M84.2,152.8H25.8l28.9-97.5L84.2,152.8zM172.2,152.8l29.5-97.5l28.9,97.5H172.2z" fill="currentColor">
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="./main.js" defer></script>
+    </body>
+</html>
